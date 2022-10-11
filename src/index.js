@@ -4,8 +4,17 @@ import ReactDOM from 'react-dom/client';
 //import App from './App';
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-const el = <h1>Hello world</h1>;
+  const root = ReactDOM.createRoot(document.getElementById('root'));
+  const el = (
+    <div>
+      <h1 class ='my-todo'>My Todo</h1>;
+        <input placeholder='search' />;
+      <ul>  
+        <li> learn react</li>
+        <li>build app</li>
+      </ul>
+    </div>);
 
 
 root.render(el);
+
